@@ -1,30 +1,85 @@
+/*
+#Sage {
+	size: 40px;
+}
+
+.main #Sage img {
+	width: 800px;
+	height: 450px;
+}
+div {
+
+	display:flex;
+	align-items: right;
+}
+
+
+
+.main > p {
+
+	color: black;
+	padding-left: 550px;
+	font-size: 30px;
+}
+
+.abilities {
+
+	padding-left: 900px;
+
+}
+
+.Ab1 {
+
+height: 86px;
+width: 86px;
+
+}
+
+#abilities {
+
+	float: right;
+	padding-right: 100px;
+	align-content: right;
+}
+
+.abs {
+
+
+
+}
+*/
+
 body {
 	background-color: #ece8df;
 	color: white;
 }
- .Sage-img #Sage  {
+ .Breach-img #Breach  {
 	display: block;
 	width: 800px;
 	height: 450px;
 	margin-left: auto;
 	margin-right: auto;
+
 }
+
 
 .main  {
 	padding-top: 50px;
 }
 
+
+
 * {
   box-sizing: border-box;
 }
 
-/* Create three equal columns next to each other */
+/* Create three equal columns that floats next to each other */
 .column {
   float: left;
   display: block;
   width: 33.33%;
   padding: 10px;
-  height: 310px; 
+  height: 300px; /* Should be removed. Only for demonstration */
   background-color: black;
 }
 
@@ -53,7 +108,7 @@ body {
 
 }
 
-.column #description p {
+.column #test p {
  float: left;
  background-color: black;
 
@@ -67,11 +122,4 @@ body {
 .column p {
 
 	padding-top: 10px;
-}
-
-#format {
-
-	padding-top: 17px;
-
-
 }
