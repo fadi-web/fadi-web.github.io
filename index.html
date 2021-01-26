@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>NVICS.com</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<h1>Welcome to NVICS Demonstration Page!</h1>
+
+<p>Here, we can demonstrate that a functioning form can fetch the information stored in the MySQL Database.</p>
+<br>
+<p>It is still in its experiemental and most basic format. This will be updated as more development occurs along with improved appearence!</p>
+<br>
+<p>Below is the form that will be used to query the database, please give it a try. Note that all fields are required.</p>
+<br><br><br>
+
+<h2>Choose your Car Details</h2>
+<br><br>
+<form method="post" action="display.php">
+  <div class="container">
+  <label for="model">Choose a model:</label>
+  <select id="model" name="model" required>
+	<option value="Choose a model" selected="selected" disabled="disabled">Choose Model</option>
+	<option value="Accord">Accord</option>
+	<option value="Civic">Civic</option>
+  </select>
+  <br><br>
+  <label for="">Choose a Trim:</label>
+  <select id="trim" name="trim" required>
+	<option value="Choose a Trim " selected="selected" disabled="disabled">Choose Trim</option> 
+	<option value="LX">LX</option>
+	<option value="Sport">Sport</option>
+	<option value="EX-L">EX-L</option>
+	<option value="Touring">Touring</option>
+	<option value="Sport2.0">Sport2.0</option>
+	<option value="Touring2.0">Touring2.0</option>
+	<option value="SI">SI</option>
+	<option value="TYPER">TYPE R</option>  
+  </select>
+  <br><br>
+  <label for="Engine">Chooses an Engine:</label>
+  <select id="engine" name="engine" required>
+	<option value="Choose engine" selected="selected" disabled="disabled">Choose Engine</option>
+	<option value="1.5LTurbo">1.5L Turbo</option>
+	<option value="2.0LTurbo">2.0L Turbo</option>
+	<option value="2.0L">2.0L</option>
+  </select>
+  <br><br>
+  <label for="transmission">Choose a transmission type:</label>
+  <select id="tranmission" name="transmission" required>
+	<option value="Choose Transmission" selected="selected" disabled="disabled">Choose Transmission</option>
+	<option value="6SpeedManual">6 Speed Manual</option>
+	<option value="10SpeedAuto">10 Speed Auto</option>
+	<option value="CVT">CVT</option>
+  </select>
+  <br><br>
+  <label for="drivetrain">Choose a Drivetrain:</label>
+  <select for="drivetrain" name="drivetrain" required>
+	<option value="Choose Drivetrain" selected="selected" disabled="disabled">Choose Drivetrain</option>
+	<option value="FWD">FWD</option>
+	<option value="AWD">AWD</option>
+  </select>
+  <br><br>
+  <label for="extColor">Choose an Exterior Color:</label>
+  <select id="extColor" name="extColor" required>
+	<option value="Choose Exterior Color" selected="selected" disabled="disabled">Choose Exterior Color</option>
+    <option value="CrystalBlackPearl">Crystal Black Pearl</option>
+    <option value="PlatinumbWhitePearl">Platinum White Pearl</option>
+    <option value="SanMarinoRed">San Marino Red</option>
+    <option value="StilNightPearl">Still Night Pearl</option>
+	<option value="RadiantRedMetallic">Radiant Red Metallic</option>
+	<option value="ObsidianBluePearl">Obsidian Blue Pearl</option>
+	<option value="LunarSilverMetallic">Lunar Silver Metallic</option>
+	<option value="RallyeRed">Rallye Red</option>
+	<option value="ModernSteelMetallic">Modern Steel Metallic</option>
+	<option value="CosmicBlue">Cosmic Blue</option>
+	<option value="AegeanBlueMetallic">Aegean Blue Metallic</option>
+	<option value="ChampionshipWhite">Championship White</option>
+  </select>
+  <br><br>
+  <label for="intColor">Choose an Interior Color:</label>
+  <select id="intColor" name="intColor" required>
+	<option value="Choose Interior Color" selected="selected" disabled="disabled">Choose Interior Color</option>
+	<option value="BlackFabric">Black Fabric</option>
+	<option value="BlackLeatherFabric">Black Leather/Fabric</option>
+	<option value="BlackLeather">Black Leather</option>
+	<option value="RedBlackSuedeEffectFabric">Red/Black Suede Effect Fabric</option>
+  </select>
+  <br><br>
+  <input type="submit" value="Find My Car!">
+</div>
+</form>
+</body>
+</html>
